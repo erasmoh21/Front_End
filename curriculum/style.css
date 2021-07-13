@@ -1,0 +1,91 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.contenedor-header {
+    text-align: center;
+    background-color:  #E5E5E5;
+    margin-bottom: 5rem;
+}
+
+.contenedor-header .contenedor-imagen {
+    padding-bottom: 1rem;
+}
+
+.contenedor-header h1 {
+    background-color: #C4C4C4;
+    color:#005677;
+    font-size: 35px;
+    font-weight: 700;
+    letter-spacing: 10px;
+    text-transform: uppercase;
+}
+
+.contenedor-main {
+    margin: 0 11.5rem;
+}
+
+.titulos-main {
+    background-color: #C4C4C4;
+    color: #005677;
+}
+
+.contenedor-main .listaDatosPersonales li {
+    line-height: 1.5;
+}
+
+.contenedor-main .listaDatosPersonales .identificacionDatos {
+    font-style: italic;
+    font-weight: bold;
+}
+
+.contenedor-main .fechasFormacionAcademica {
+    font-style: italic;
+    font-weight: bold;
+}
+
+.contenedor-main .listaExperienciaLaboral .fechaExperienciaLaboral {
+    font-style: italic;
+    font-weight: bold;
+}
+
+.listaDatosPersonales, .listaFormacionAcademica, .listaExperienciaLaboral {
+    margin: 1.5rem 0 1.5rem 2rem;
+}
+
+.contenedor-main dd {
+    margin-left: 5rem;
+}
+
+.contenedor-main dt {
+    line-height: 2;
+}
+
+.contenedor-main {
+    margin-bottom: 5rem;
+}
+
+.contenedor-footer {
+    background-color: #005677;
+    color: #FFFF;
+    display: flex;
+    font-weight: bolder;
+    justify-content: center;
+    text-align: center;
+    padding-top: .5rem;
+}
+
+.contenedor-footer .linksRedesSociales,.contenedor-footer .linksRedesSociales a {
+    margin-left: 1rem;
+}
+
+
+
+
+
+
+
+
+
