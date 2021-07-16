@@ -1,0 +1,201 @@
+@import url('https://fonts.googleapis.com/css2?family=Prompt&display=swap');
+
+html {
+    font-size: 62.5%;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Prompt', sans-serif;
+    color: #fff;
+}
+
+/* diseñando header */
+
+.contenedor-header {
+    background-color: #43C5EA;  
+    display: flex;
+    font-size: 2.5rem;
+    padding: 2rem;
+    justify-content: space-between;
+}
+
+.contenedor-header p {
+    margin-left: 9rem;
+}
+
+.contenedor-header i {
+    margin-right: 9rem;
+}
+
+.contenedor-header .linksPage a {
+    padding: 1rem;
+    text-decoration: none;
+    margin-right: 1rem;
+    transition: all 1s ease;
+}
+
+.contenedor-header .linksPage a:hover {
+    background-color: #fff;
+    border-radius: 5rem;
+    color: #43C5EA;
+}
+
+/* diseñando main */
+
+.contenedor-main {
+    margin: 5rem 10rem 0 10rem;
+}
+
+.contenedor-main figcaption h1, h3 {
+    font-size: 4rem;
+    color: #43C5EA;
+}
+
+.contenedor-main figcaption h1 {
+    font-size: 5rem;
+}
+
+.contenedor-main .contenedor-imagenPrincipal {
+    display: flex;
+    justify-content: center;
+}
+
+.contenedor-main .contenedor-imagenPrincipal figcaption {
+    align-self: center;
+}
+
+/* seccion sobre mi */
+
+.contenedorMain-sobreMi  {
+    
+    margin: 5rem 10rem 0 10rem;
+    color: #43C5EA;
+}
+
+.contenedorMain-sobreMi div h2 {
+    color: #43C5EA;
+    font-size: 4rem ;
+    text-align: center;
+}
+
+.contenedorMain-sobreMi div {
+    margin-bottom: 5rem;
+}
+
+.contenedorMain-sobreMi .contenedor-aboutMe p {
+    font-size: 1.8rem;
+    text-align: center;
+    color: black;
+}
+
+/* seccion habilidades */
+
+.contenedor-habilidades {
+    margin: 5rem 10rem 0 10rem;
+}
+
+.contenedor-habilidades .contenedor-skills h2 {
+    font-size: 4rem;
+    color: #43C5EA;
+    text-align: center;
+}
+
+.contenedor-habilidades .contenedor-skills .logos {
+    display: grid;
+    grid-template-columns: repeat(2,10rem);
+    grid-template-rows: repeat(2,10rem) ;
+    justify-content: center;
+    align-content: center;   
+}
+
+.contenedor-habilidades .contenedor-skills .logos .logo-html-contenedor,.logo-css-contenedor, .logo-js-contenedor, .logo-sql-contenedor {
+    justify-self: center;  
+    align-self: center;
+}
+
+.contenedor-habilidades .contenedor-skills i   {
+    font-size: 5rem;
+}
+
+.contenedor-habilidades #html {
+    color: #DD4B25;
+}
+
+.contenedor-habilidades .contenedor-skills #css {
+    color: #254BDD;
+}
+
+.contenedor-habilidades .contenedor-skills #js {
+    color: #EFD81D;
+}
+
+.contenedor-habilidades .contenedor-skills #sql {
+    color: #D7DEE3;
+}
+
+.contenedorMain-habilidades .contenedor-skills .logo-css-contenedor {
+    display: inline-flex;
+}
+
+/* contacto */
+
+.contenedor-contact {
+    margin-top: 5rem 0 0 0;
+}
+
+.contenedor-contact .contenedor-contacto h2 {
+    color: #43C5EA;
+    font-size: 4rem;
+    text-align: center;
+}
+
+.contenedor-contact .contenedor-contacto form {
+    margin: 5rem 0 5rem 0;
+    display: grid;
+    width: 50%;
+    position: relative;
+    left: 30rem;
+}
+
+.contenedor-contact .contenedor-contacto form input {
+    margin-bottom: 1rem;
+    border: 1px solid #43C5EA;
+    padding: 1.8rem;
+    border-radius: 3rem;
+    outline: none;
+}
+
+.contenedor-contact .contenedor-contacto form button {
+    outline: none;
+    border-radius: 3rem;
+    padding: 1.8rem;
+    color: #43C5EA;
+    background-color: #fff;
+    border: 1px solid #43C5EA;
+    cursor: pointer;
+    transition: all 1s ease;
+}
+
+.contenedor-contact .contenedor-contacto form button:hover {
+    background-color: #43C5EA;
+    color: #fff;
+}
+
+/* footer */
+
+.contenedor-footer {
+    background-color: #43C5EA;
+    display: block;
+    text-align: center;
+    padding: 2rem;
+    font-size: 1.8rem;
+    justify-content: center;
+}
+
+.contenedor-footer .nav-footer i {
+    font-size: 3rem;
+    margin-right: 1rem;
+}

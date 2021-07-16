@@ -1,0 +1,306 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif; 
+}
+
+html {
+    font-size: 62.5%;
+}
+
+/* header inicial */
+
+ .header-inicial {
+    background-color: #222;
+    color: #f3f3f3;
+    display: flex;
+    justify-content: space-between;
+    font-size: 1rem;
+    padding: .6rem;
+}
+
+.header-inicial .header-inicial-idiomas {
+    display: flex;
+    margin-right: 7rem;
+}
+
+.header-inicial .header-inicial-idiomas p {
+    margin-left: 2rem;
+}
+
+.header-inicial .parrafo{
+    margin-left: 7rem;
+}
+
+/* header principal */
+
+.header-principal {
+    display: flex;
+    background-color: #F0A83E;
+    justify-content: space-between;
+    color: #FFF;
+    padding: 2rem;
+    align-items: center;
+}
+
+.header-principal h1 {
+    font-size: 2rem;
+    margin-left: 4.8rem;
+    font-weight: bolder;
+}
+
+.header-principal h1 span {
+    color: #3C2313;
+}
+
+.header-principal h1 img {
+    width: 2rem;
+}
+
+.header-principal-navCategoria a{
+    text-decoration: none;
+    color: #FFF;
+    font-size: 1.3rem;
+    margin-left: 2rem;
+}
+
+.header-principal-navCategoria {
+    margin-right: 4.8rem;
+}
+
+.header-principal-navCategoria img {
+    margin-right:.2rem ;
+    width: 1.34rem;
+}
+
+/* main */
+
+.contenedorMain .primeraSeccion {
+    background: #F0A83E  url(img/bowl-and-pet-daities-on-green-background\ 1.png) no-repeat  left;
+    background-size: 100% 100%;
+    padding: 20rem;
+}
+
+.contenedorMain .primeraSeccion div {
+    text-align: center;
+    display: inline-block;
+    position: relative;
+    left: 70rem;
+}
+
+.contenedorMain .primeraSeccion .primerTexto {
+    font-size: 3rem;
+    background-color: #FFF;
+    padding: 1rem;
+    border-radius: .5rem;
+    margin-bottom: 1rem;
+}
+
+.contenedorMain .primeraSeccion .segundoTexto, .tercerTexto {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+.contenedorMain .primeraSeccion .tercerTexto {
+    display: inline-block;
+    padding: 1.8rem;
+    background-color: #F0A83E;
+    color: #FFF;
+    border-radius: .5rem;
+    cursor: pointer;
+    
+}
+
+/* main productos destacados */
+
+.contenedorMain .seccionProductosDestacados figure{
+    text-align: center;
+    margin-top: 2rem;
+}
+
+.contenedorMain .titulosProductosDestacados {
+    margin-top: 2rem;
+    font-size: 4rem;
+    color: #3C2313;
+    text-align: center;
+}
+
+.contenedorMain .seccionProductosDestacados .tipoProducto {
+    justify-content: center;
+    margin-top: 2rem;
+    font-size: 1.5rem;
+    display: flex;
+    color: #666666;
+}
+
+.contenedorMain .seccionProductosDestacados .tipoProducto p {
+    margin-right: 2rem;
+}
+
+/* seccion cards main */
+
+.contenedorMain .productos-cards {
+    display: grid;
+    grid-template-columns: repeat(3,30rem);
+    justify-content: center;
+    margin-top: 4rem;
+}
+
+.contenedorMain .productos-cards figure figcaption {
+    position: relative;
+    bottom: 5rem;
+}
+
+.contenedorMain .productos-cards figure figcaption .precio {
+    color: #F0A83E;
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+.contenedorMain .productos-cards figure figcaption .nombre {
+    color: #3C2313;
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+/* contacto main*/
+
+.contenedorMain .contactoMain .tituloContacto{
+    color:#3C2313;
+    font-size: 2.5rem;
+    text-align: center;
+}
+
+.contenedorMain .contactoMain .formularioContacto {
+    display: flex;
+    white-space: pre-wrap;
+    margin: 1rem 0 7rem 0;
+    justify-content: center;
+    align-content: center;
+}
+
+.contenedorMain .contactoMain .formularioContacto input {
+    margin-top: 1rem;
+    background-color: #3C2313;
+    color: #FFF;
+    border: none;
+    outline: none;
+    padding: 1rem;
+    width: 34rem;
+    border-radius: 1.5rem;
+}
+
+.contenedorMain .contactoMain .formularioContacto input::placeholder {
+    color: #FFF;
+}
+
+.contenedorMain .contactoMain .envioFormulario {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    font-size: 1.6rem;
+    color: #fff;
+    text-align: center;
+    margin-bottom: 4rem;
+    position: relative;
+    bottom: 4rem;
+}
+
+.contenedorMain .contactoMain .envioFormulario .resetear {
+    margin-right: 1rem;
+    padding: 1rem;
+    border-radius: 2rem;
+    background-color:#666666;
+    width: 12rem;
+    cursor: pointer;    
+}
+
+.contenedorMain .contactoMain .envioFormulario .enviar {
+    padding: 1rem;
+    background-color:#F0A83E;
+    border-radius: 2rem;
+    width: 12rem;
+    cursor: pointer;
+}
+
+/* footer */
+
+.footerInicial {
+    background-color: #F0A83E;
+    display: flex;
+    justify-content: space-between;
+    align-items: center; 
+    color: #FFF;
+    padding: 2rem 0;
+}
+
+.footerInicial .suscripcionNovedades {
+    display: flex;
+    margin-left: 2rem;
+    font-size: 1.6rem;
+}
+
+.footerInicial .suscripcionNovedades img {
+    margin-right: 1.4rem;
+}
+
+.footerInicial form {
+    margin-right: 8rem;
+}
+
+.footerInicial form input{
+    outline: none;
+    border: none;
+    padding: 1rem;
+    border-radius: 1.7rem;
+    height: 4rem;
+    width: 30rem;
+    margin-right: 1rem;
+}
+
+.footerInicial form button {
+    background-color: #3C2313;
+    outline: none;
+    border: none;
+    padding: 1rem;
+    border-radius: 2rem;
+    color: #FFF;
+}
+
+/* footer principal */
+
+.contenedor-footer .contenedor-footerPrincipal {
+    background-color: #3C2313;
+    color: #FFF;
+}
+
+.contenedor-footer .contenedor-footerPrincipal .datosEmpresa figure {
+    margin-left: 4rem;
+    padding: 1rem 1rem;
+    display: flex;
+}
+
+.contenedor-footer .contenedor-footerPrincipal .datosEmpresa figure figcaption {
+    margin-left: 2rem;
+    align-self: center;
+}
+
+.contenedor-footer .contenedor-footerPrincipal .datosEmpresa figure figcaption p {
+    color:#8A8787;
+}
+
+.contenedor-footer .contenedor-footerPrincipal .logoEmpresa {
+    position: relative;
+    left: calc(1349px - 20%);
+    bottom: calc(284px/2);
+}
+
+.contenedor-footerUltimo {
+    background-color: #222222;
+    color: #FFF;
+    text-align: center;
+    padding: .4rem;
+}
+
