@@ -5,101 +5,105 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Front Cat&Dog</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <header>
-        <div>
-            <p>Grandes ofertas en comederos</p>
-            <p>Español</p>
-            <p>ARG$</p>
+        <div class="header-inicial">
+            <p class="parrafo">Grandes ofertas en comederos</p>
+            <div class="header-inicial-idiomas">
+                <p>Español <img src="img/icono-flechaAbajo.svg" alt=""></p>
+                <p>ARG$ <img src="img/icono-flechaAbajo.svg" alt=""></p>
+            </div>
         </div>
-        <div>
-            <figure>
-                <img src="img/Logo.svg" alt="">
-            </figure>
+        <div class="header-principal">
+            <h1><img src="img/icono-header-gato.svg" alt=""> Front<span>Cat&Dog</span> <img src="img/icono-header-perro.svg" alt=""> </h1>
 
-            <nav>
-                <a href="">Categorias</a>
-                <a href="">Pets</a>
-                <a href="">Nosotros</a>
-                <a href="">Contactanos</a>
+            <nav class="header-principal-navCategoria">
+                
+                <a href=""><img src="img/pawprint 1.svg" alt="">Categorias</a>
+                <a href=""><img src="img/pawprint 1.svg" alt="">Pets</a>
+                <a href=""><img src="img/pawprint 1.svg" alt="">Nosotros</a>
+                <a href=""><img src="img/pawprint 1.svg" alt="">Contactanos</a>
             </nav>
-
         </div>
     </header>
+
     <main>
-        <section>
-            <figure>
-                <img src="img/bowl-and-pet-daities-on-green-background 1.png" alt="">
-            </figure>
+        <div class="contenedorMain">
+            <section class="primeraSeccion">
+                <div> 
+                    <p class="primerTexto">¡Es un placer tenerte aquí! </p>
+                    <p class="segundoTexto">¡Comederos en descuento!</p> 
+                    <p class="tercerTexto">Comederos</p>
+                </div> 
+            </section>  
 
-            <div><p>¡Es un placer tenerte aquí! </p></div>
-            <div> <p>¡Comederos en descuento¡</p> </div>
-            <div><p>Comederos</p></div>
-        </section>  
+            <section class="seccionProductosDestacados">
+                <figure>
+                    <img src="img/patita.svg" alt="">
+                </figure>
 
-        <section>
-            <figure>
-                <img src="/img/pawprint 1.svg" alt="">
-            </figure>
+                <h1 class="titulosProductosDestacados">Productos Destacados</h1>
 
-            <div><h1>Productos Destacados</h1></div>
+                <div class="tipoProducto">
+                    <p>Comederos -</p>
+                    <p>Accesorios -</p>
+                    <p>Comida </p>
+                </div>
+            </section>
 
-            <div>
-                <p>Comederos</p>
-                <p>Accesorios</p>
-                <p>Comida</p>
-            </div>
-        </section>
+            <section class="productos-cards">
+                <figure>
+                    <img src="img/churrasquito.png" alt="churrasco">
+                    <figcaption>
+                        <p class="nombre">Juguete Churrasquito</p>
+                        <p class="precio">$150</p>
+                    </figcaption>
+                </figure>
+                
+                <figure>
+                    <img src="img/comedero.png" alt="comedero">
+                    <figcaption>
+                        <p class="nombre">Comedero para Perro</p>
+                        <p class="precio">$250</p>
+                    </figcaption>
+                </figure>
+                
+                <figure>
+                    <img src="img/Huesito.png" alt="Huesitos">
+                    <figcaption>
+                        <p class="nombre">Juguete Huesito</p>
+                        <p class="precio">$650</p>
+                    </figcaption>
+                </figure>
+            </section>
 
-        <section>
-            <figure>
-                <img src="img/churrasquito.png" alt="churrasco">
-                <figcaption>
-                    <p>Juguete Churrasquito</p>
-                    <p>$150</p>
-                </figcaption>
-            </figure>
-
-            <figure>
-                <img src="img/comedero.png" alt="comedero">
-                <figcaption>
-                    <p>Comedero para Perro</p>
-                    <p>$250</p>
-                </figcaption>
-            </figure>
-
-            <figure>
-                <img src="img/Huesito.png" alt="Huesitos">
-                <figcaption>
-                    <p>Juguete Huesito</p>
-                    <p>$650</p>
-                </figcaption>
-            </figure>
-        </section>
-
-        <section>
-            <h2>Contactanos</h2>
-
-            <div>
-                <form action="">
-                    <input type="text" id="nombre" placeholder="Nombre y apellido" required>
-                    <input type='email' id="email" placeholder="Ingresa tu correo electronico" required>
-                    <input type="number" id='numeroTelefonico' placeholder="Telefono" required>
-                </form>
-            </div>
-
-            <div>
-                <p>Resetear</p>
-                <p>Enviar</p>
-            </div>
-        </section>
-
+            <section class="contactoMain">
+                <h2 class="tituloContacto">Contáctanos</h2>
+        
+                <div class="formularioContacto">
+                    <form action="">
+                        <input type="text" id="nombre" placeholder="Nombre y apellido" required>
+                        <input type='email' id="email" placeholder="Ingresa tu correo electronico" required>
+                        <input type="text" id='numeroTelefonico' placeholder="Telefono" required>
+                    </form>
+                </div>
+        
+                <div class="envioFormulario">
+                    <p class="resetear">Resetear</p>
+                    <p class="enviar">Enviar</p>
+                </div>
+            </section>
+        
+        </div>
     </main>
 
+
+
     <footer>
-        <div>
-            <div>
+        <div class="footerInicial">
+            <div class="suscripcionNovedades">
                 <img src="img/Group.svg" alt="">
                 <h2>Sucribete para mas novedades</h2>
             </div>
@@ -110,49 +114,44 @@
             </form>
         </div>
 
-        <div>
-            <div>
-                <div>
+        <div class="contenedor-footer">
+            <div class="contenedor-footerPrincipal">
+                <div class="datosEmpresa">
                     <figure>
-                        <img src="/img/Icono.svg" alt="">
+                        <img src="img/icono-localidad.svg" alt="">
                         <figcaption>
                             <h2>Localidad</h2>
                             <p>Calle-Provincia</p>
                         </figcaption>
                     </figure>
                 </div>
-                <div>
+                <div class="datosEmpresa">
                     <figure>
-                        <img src="/img/Icono (1).svg"></img>
+                        <img src="img/Icono-telefono.svg"></img>
                         <figcaption>
                             <h3>Télefono</h3>
                             <p>Número de télefono</p>
                         </figcaption>
                     </figure>
                 </div>
-                <div>
+                <div class="datosEmpresa">
                     <figure>
-                        <img src="img/Icono (2).svg" alt="">
+                        <img src="img/Icono-correo.svg" alt="">
                         <figcaption>
                             <h3>Correo Electrónico</h3>
                             <p>Direccion de correo</p>
                         </figcaption>
                     </figure>
                 </div>
-            </div> 
-            
-            <div>
-                <figure>
-                    <img src="img/Logo.svg" alt="">
-                </figure>
-            </div>
-        </div>
 
-        <div>
+                <img src="img/Logo.svg" alt="" class="logoEmpresa">
+            </div> 
+        </div>
+            
+        <div class="contenedor-footerUltimo">
             <p>Todos los derechos reservados Front End</p>
         </div>
         
     </footer>
-    
 </body>
 </html>
