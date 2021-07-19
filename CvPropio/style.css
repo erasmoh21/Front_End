@@ -70,8 +70,7 @@ html {
 /* seccion sobre mi */
 
 .contenedorMain-sobreMi  {
-    
-    margin: 5rem 10rem 0 10rem;
+    margin: 10rem;
     color: #43C5EA;
 }
 
@@ -94,7 +93,7 @@ html {
 /* seccion habilidades */
 
 .contenedor-habilidades {
-    margin: 5rem 10rem 0 10rem;
+    margin: 10rem;
 }
 
 .contenedor-habilidades .contenedor-skills h2 {
@@ -140,10 +139,51 @@ html {
     display: inline-flex;
 }
 
+/* proyectos */
+
+.contenedor-proyectos {
+    display: flex;
+    justify-content: center;
+    margin: 10rem;
+}
+
+#projects {
+    color: #43C5EA;
+    text-align: center;
+    font-size: 4rem;
+}
+
+.contenedor-proyectos div {
+    margin-right: 2rem;
+    padding: 4rem;
+    border: 1px solid #43C5EA;
+    border-radius: 2rem;
+}
+
+.contenedor-proyectos figure figcaption a {
+    display: flex;
+    border: 1px solid #43C5EA;
+    border-radius: 3rem;
+    color: #43C5EA;
+    font-size: 1.7rem;
+    padding: 1rem 4rem;
+    transition: all 1s ease;
+    text-decoration: none;
+    justify-content: center;
+    position: relative;
+    top: 3rem;
+}
+
+.contenedor-proyectos figure figcaption a:hover {
+    background-color: #43C5EA;
+    color: #fff;
+}
+
 /* contacto */
 
 .contenedor-contact {
-    margin-top: 5rem 0 0 0;
+    margin:10rem;
+    
 }
 
 .contenedor-contact .contenedor-contacto h2 {
@@ -166,6 +206,7 @@ html {
     padding: 1.8rem;
     border-radius: 3rem;
     outline: none;
+    color: #000;
 }
 
 .contenedor-contact .contenedor-contacto form button {
