@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.5rem;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+.contenedor-header .descuentos {
+    background: #1CD1B0;
+    padding: .5rem;
+}
+
+.contenedor-header .descuentos p {
+    margin-left: 15px;
+}
+
+.contenedor-header .contenedor-titulo {
+    background-color:#00669F;
+    box-shadow: 0px 10px 7px 0px rgba(0, 0, 0, .25);
+    padding: 25px; 
+}
+
+.contenedor-header .contenedor-titulo h1 {
+    margin-left: 15px;
+    font-size: 4rem;
+    position: sticky; 
+    top: 0;
+}
+
+/* main */
+
+.contenedor-main {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 50px 50px;
+}
+
+.contenedor-main section figure  {
+    width: 30rem;
+}
+
+.contenedor-main section figure .icon-corazon,.img-personajes {
+    position: relative;
+    z-index: 1;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, .25);
+}
+
+.contenedor-main section figure .icon-corazon {
+    top: 5rem;
+    left: 1rem;
+}
+
+.contenedor-main section figure .img-personajes {
+    border-radius: 50%;
+    left: calc(50%/2);
+    bottom: 6rem;
+}
+
+.contenedor-main section figure figcaption {
+    display:flex;
+    flex-direction: column;
+    align-items: center ;
+    background-color: #F3F3F3;
+    position: relative;
+    bottom: 13rem;
+    padding: 1rem 2rem;
+    height: 34rem;
+    box-shadow: 0px 4px 4px 0 rgba(0, 0, 0, .25);
+
+}
+
+.contenedor-main section figure figcaption h2 {
+    font-size: 3rem;
+    display: flex;
+    justify-content:space-around;    
+    position: relative;
+    top: 7rem;
+}
+
+.contenedor-main section figure figcaption p {
+    position: relative;
+    top: 10rem;
+}
+
+.contenedor-main section figure figcaption a {
+    text-decoration: none;
+    color: #ffffff;
+    padding: 1.5rem 3rem;
+    margin-top: 3rem;
+    background-color:#00669F;
+    position: relative;
+    top: 9rem;
+}
+
+/* footer */
+
+.contenedor-footer{
+    background-color: #00669F;
+    color: #ffff;
+    padding: .5rem;
+}
+
+.contenedor-footer p {
+    margin-left: 1.5rem;
+}
