@@ -19,6 +19,7 @@
         <div class="header-principal">
             <h1><img src="img/icono-header-gato.svg" alt=""> Front<span>Cat&Dog</span> <img src="img/icono-header-perro.svg" alt=""> </h1>
 
+            <img src="img/menu-icon.svg" alt="" class="bars-menu">
             <nav class="header-principal-navCategoria">
                 
                 <a href=""><img src="img/pawprint 1.svg" alt="">Categorias</a>
@@ -32,12 +33,16 @@
     <main>
         <div class="contenedorMain">
             <section class="primeraSeccion">
-                <div> 
-                    <p class="primerTexto">¡Es un placer tenerte aquí! </p>
-                    <p class="segundoTexto">¡Comederos en descuento!</p> 
-                    <p class="tercerTexto">Comederos</p>
-                </div> 
-            </section>  
+                <div class="hola">
+                    <div>
+                        <p class="primerTexto">¡Es un placer tenerte aquí! </p>
+                        <p class="segundoTexto">¡Comederos en descuento!</p>
+                        <p class="tercerTexto">COMEDEROS</p>
+                    </div>
+                </div>
+            </section>
+        
+        
 
             <section class="seccionProductosDestacados">
                 <figure>
@@ -87,19 +92,17 @@
                         <input type="text" id="nombre" placeholder="Nombre y apellido" required>
                         <input type='email' id="email" placeholder="Ingresa tu correo electronico" required>
                         <input type="text" id='numeroTelefonico' placeholder="Telefono" required>
+                        <div class="btn-formulario ">
+                            <button type="reset">Resetear</button>
+                            <button type="submit">Enviar</button>
+                        </div>
                     </form>
                 </div>
-        
-                <div class="envioFormulario">
-                    <p class="resetear">Resetear</p>
-                    <p class="enviar">Enviar</p>
-                </div>
             </section>
-        
         </div>
     </main>
 
-
+        
 
     <footer>
         <div class="footerInicial">
@@ -116,35 +119,38 @@
 
         <div class="contenedor-footer">
             <div class="contenedor-footerPrincipal">
-                <div class="datosEmpresa">
-                    <figure>
-                        <img src="img/icono-localidad.svg" alt="">
-                        <figcaption>
-                            <h2>Localidad</h2>
-                            <p>Calle-Provincia</p>
-                        </figcaption>
-                    </figure>
-                </div>
-                <div class="datosEmpresa">
-                    <figure>
-                        <img src="img/Icono-telefono.svg"></img>
-                        <figcaption>
-                            <h3>Télefono</h3>
-                            <p>Número de télefono</p>
-                        </figcaption>
-                    </figure>
-                </div>
-                <div class="datosEmpresa">
-                    <figure>
-                        <img src="img/Icono-correo.svg" alt="">
-                        <figcaption>
-                            <h3>Correo Electrónico</h3>
-                            <p>Direccion de correo</p>
-                        </figcaption>
-                    </figure>
+                <div class="contenedorDatosEmpresa">
+                    <div class="datosEmpresa">
+                        <figure>
+                            <img src="img/icono-localidad.svg" alt="">
+                            <figcaption>
+                                <h2>Localidad</h2>
+                                <p>Calle-Provincia</p>
+                            </figcaption>
+                        </figure>
+                    </div>
+                    <div class="datosEmpresa">
+                        <figure>
+                            <img src="img/Icono-telefono.svg"></img>
+                            <figcaption>
+                                <h3>Télefono</h3>
+                                <p>Número de télefono</p>
+                            </figcaption>
+                        </figure>
+                    </div>
+                    <div class="datosEmpresa">
+                        <figure>
+                            <img src="img/Icono-correo.svg" alt="">
+                            <figcaption>
+                                <h3>Correo Electrónico</h3>
+                                <p>Direccion de correo</p>
+                            </figcaption>
+                        </figure>
+                    </div>
                 </div>
 
-                <img src="img/Logo.svg" alt="" class="logoEmpresa">
+               <div class="contenedorImagenFooter"> <img src="img/Logo.svg" alt="" class="logoEmpresa"> </div>
+                
             </div> 
         </div>
             

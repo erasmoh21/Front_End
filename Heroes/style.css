@@ -8,16 +8,12 @@
     font-size: 1.5rem;
 }
 
-header {
-    height: 100%;
-}
-
 html {
     font-size: 62.5%;
 }
 
 .contenedor-header .descuentos {
-    background: #1CD1B0;
+    background-color: #1CD1B0;
     padding: .5rem;
 }
 
@@ -32,6 +28,10 @@ html {
     position: sticky;
     top: 0;
     z-index: 2;
+}
+
+.contenedor-titulo h1:last-child {
+    display: none;
 }
 
 .contenedor-titulo h1 {
@@ -104,6 +104,18 @@ html {
     top: 9rem;
 }
 
+.cardSuperman {
+    display: none;
+}
+
+.cardMujerMaravilla {
+    display: none;
+}
+
+.card4 {
+    display: none;
+}
+
 /* footer */
 
 .contenedor-footer{
@@ -114,4 +126,50 @@ html {
 
 .contenedor-footer p {
     margin-left: 1.5rem;
+    text-align: center;
+}
+
+.contenedor-footer img {
+    display: none;
+}
+
+@media all and (min-width: 481px) and (max-width:768px) {
+    .contenedor-header .descuentos{
+        background-color: #D1891C;
+    }
+
+    .contenedor-titulo h1:first-child {
+        display: none;
+    }
+
+    .contenedor-titulo h1:last-child {
+        display: block;
+        color: #FFFF;
+        margin-left:0 ;
+    }
+
+    .contenedor-main {
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        grid-template-columns: repeat(2,1fr);
+    }
+
+    .contenedor-main .card3 {
+        display: none;
+    }
+
+    .contenedor-main .cardMujerMaravilla{
+        display: flex;
+    }
+
+    .contenedor-main .cardMujerMaravilla .img-personajes {
+        object-fit: cover;
+    }
+
+    .contenedor-main .cardSuperman {
+        display: flex;
+    }
+
+
+
 }

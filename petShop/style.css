@@ -10,6 +10,10 @@ html {
     font-size: 62.5%;
 }
 
+.bars-menu {
+    display: none;
+}
+
 /* header inicial */
 
  .header-inicial {
@@ -79,18 +83,21 @@ html {
 
 .contenedorMain .primeraSeccion {
     background: #F0A83E  url(img/bowl-and-pet-daities-on-green-background\ 1.png) no-repeat  left;
-    background-size: 100% 100%;
-    padding: 20rem;
+    background-size:cover;
+    height: 600px;
 }
 
-.contenedorMain .primeraSeccion div {
+.contenedorMain .primeraSeccion .hola {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
     text-align: center;
-    display: inline-block;
-    position: relative;
-    left: 70rem;
+    height: 100%;
+    margin-right: 6rem;
 }
 
-.contenedorMain .primeraSeccion .primerTexto {
+.contenedorMain .primeraSeccion div .primerTexto {
     font-size: 3rem;
     background-color: #FFF;
     padding: 1rem;
@@ -98,19 +105,20 @@ html {
     margin-bottom: 1rem;
 }
 
-.contenedorMain .primeraSeccion .segundoTexto, .tercerTexto {
+.contenedorMain div .primeraSeccion .segundoTexto, .segundoTexto {
     font-size: 2rem;
     margin-bottom: 1rem;
 }
 
-.contenedorMain .primeraSeccion .tercerTexto {
+.contenedorMain .primeraSeccion  div .tercerTexto {    
     display: inline-block;
-    padding: 1.8rem;
+    font-weight: bolder;
+    font-size: 1.6rem;
+    padding: 1.5rem 2rem ;
     background-color: #F0A83E;
     color: #FFF;
     border-radius: .5rem;
-    cursor: pointer;
-    
+    cursor: pointer;    
 }
 
 /* main productos destacados */
@@ -169,60 +177,57 @@ html {
 
 .contenedorMain .contactoMain .tituloContacto{
     color:#3C2313;
-    font-size: 2.5rem;
+    font-size: 4rem;
     text-align: center;
 }
 
 .contenedorMain .contactoMain .formularioContacto {
     display: flex;
-    white-space: pre-wrap;
-    margin: 1rem 0 7rem 0;
     justify-content: center;
-    align-content: center;
+}
+
+.contenedorMain .contactoMain .formularioContacto form {
+    display: flex;
+    flex-direction: column;
 }
 
 .contenedorMain .contactoMain .formularioContacto input {
     margin-top: 1rem;
+    width: 40rem;
     background-color: #3C2313;
     color: #FFF;
     border: none;
     outline: none;
-    padding: 1rem;
-    width: 34rem;
+    padding: 1.2rem;
     border-radius: 1.5rem;
+}
+
+.contenedorMain .contactoMain .formularioContacto form .btn-formulario {
+    margin: 6rem 0;
+    display: flex;
+    justify-content: center; 
+}
+
+.contenedorMain .contactoMain .formularioContacto form .btn-formulario button {
+    color: #FFF;
+    font-weight: 900;
+    padding: 1.3rem 4rem;
+    border-radius: 1.5rem;
+    outline: none;
+    border: none;
+    margin-right: 1rem;
+}
+
+.contenedorMain .contactoMain .formularioContacto form .btn-formulario button:first-child {
+    background-color: #8A8787;
+}
+
+.contenedorMain .contactoMain .formularioContacto form .btn-formulario button:last-child {
+    background-color: #F0A83E;
 }
 
 .contenedorMain .contactoMain .formularioContacto input::placeholder {
     color: #FFF;
-}
-
-.contenedorMain .contactoMain .envioFormulario {
-    display: flex;
-    justify-content: center;
-    align-content: center;
-    font-size: 1.6rem;
-    color: #fff;
-    text-align: center;
-    margin-bottom: 4rem;
-    position: relative;
-    bottom: 4rem;
-}
-
-.contenedorMain .contactoMain .envioFormulario .resetear {
-    margin-right: 1rem;
-    padding: 1rem;
-    border-radius: 2rem;
-    background-color:#666666;
-    width: 12rem;
-    cursor: pointer;    
-}
-
-.contenedorMain .contactoMain .envioFormulario .enviar {
-    padding: 1rem;
-    background-color:#F0A83E;
-    border-radius: 2rem;
-    width: 12rem;
-    cursor: pointer;
 }
 
 /* footer */
@@ -272,29 +277,38 @@ html {
 /* footer principal */
 
 .contenedor-footer .contenedor-footerPrincipal {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
     background-color: #3C2313;
     color: #FFF;
 }
 
-.contenedor-footer .contenedor-footerPrincipal .datosEmpresa figure {
+.contenedor-footer .contenedor-footerPrincipal .contenedorDatosEmpresa  {
+    display: block;    
     margin-left: 4rem;
-    padding: 1rem 1rem;
+    padding: 1rem 1rem;    
+}
+
+.contenedor-footer .contenedor-footerPrincipal .contenedorDatosEmpresa .datosEmpresa {
+    margin: 1rem 0;
+}
+
+.contenedor-footer .contenedor-footerPrincipal .contenedorDatosEmpresa .datosEmpresa figure  {
     display: flex;
 }
 
-.contenedor-footer .contenedor-footerPrincipal .datosEmpresa figure figcaption {
-    margin-left: 2rem;
+.contenedor-footer .contenedor-footerPrincipal .contenedorDatosEmpresa .datosEmpresa figure figcaption {
+    margin-left: 1rem;
     align-self: center;
+}
+
+.contenedor-footer .contenedor-footerPrincipal .contenedorImagenFooter {
+    margin-right: 4rem;
 }
 
 .contenedor-footer .contenedor-footerPrincipal .datosEmpresa figure figcaption p {
     color:#8A8787;
-}
-
-.contenedor-footer .contenedor-footerPrincipal .logoEmpresa {
-    position: relative;
-    left: calc(1349px - 20%);
-    bottom: calc(284px/2);
 }
 
 .contenedor-footerUltimo {
@@ -304,3 +318,67 @@ html {
     padding: .4rem;
 }
 
+@media all and (max-width:800px) {
+    .header-inicial {
+        display:none;
+    }
+
+    .header-principal {
+        box-shadow: 0px 1px 4px  0px rgba(0, 0, 0, .25);
+    }
+    
+    .header-principal .header-principal-navCategoria{
+        display: none;
+    }
+
+    .header-principal h1 {
+        margin-left: 0;
+    }
+
+    .header-principal .bars-menu {
+        display: block;
+    }
+
+    .contenedorMain .primeraSeccion .hola div .segundoTexto {
+        text-align: right;
+    }
+
+    .contenedorMain .primeraSeccion .hola div .tercerTexto {
+        position: relative;
+        left: 11rem;
+        
+    }
+    
+    .contenedorMain .productos-cards {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .footerInicial {
+        display: block;
+    }
+
+    .footerInicial .suscripcionNovedades {
+        margin-bottom: 2rem;   
+    }
+
+    .footerInicial form {
+        position: relative;
+        left: 3rem;
+    }
+
+    .footerIncial form button {
+        font-weight: bolder;
+    }
+
+    .contenedor-footer .contenedor-footerPrincipal {
+        flex-direction: column;
+    }
+
+    .contenedor-footer .contenedor-footerPrincipal .contenedorImagenFooter {
+        order: -1;
+        margin: 1rem 0;
+    }     
+}
