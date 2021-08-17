@@ -25,15 +25,15 @@
     margin-left: 1rem ;
 }
 
-.contenedor-header .logo-header .pizza {
+.pizza {
     color: #39B24A;
 }
 
-.contenedor-header .logo-header .y {
+.y {
     color: #fff;
 }
 
-.contenedor-header .logo-header .front {
+.front {
     color: red;
 }
 
@@ -61,18 +61,24 @@
 
 /* main */
 
-.contenedor-main {
+main {
     background-color: #E5E5E5;
+}
+
+.contenedor-main {
+    padding: 3rem 5rem;
     display: flex;
     justify-content: space-evenly;
+    flex-wrap: wrap;
+    
 }
 
 .contenedor-main .div1-main {
-    margin: 50px 0 50px 170px;
     background: url(img/img-delivery.png);
-     width: 491px;
-    height: 350px;
     background-color: yellow;
+    width: 491px;
+    height: 350px;
+    margin-top: 1rem;
 }
 
 .contenedor-main .div1-main h2 {
@@ -90,9 +96,9 @@
     align-content: space-between;
     background-color: #fff;
     border-radius: 5px ;
-    margin: 50px 170px 50px 0px;
     width: 491px;
     height: 350px;
+    margin-top: 1rem;
 }
 
 .contenedor-main .podioPizza .contenedortitulo{
@@ -148,18 +154,6 @@
     margin-left: 1rem;
 }
 
-.contenedor-footer .logo-header .pizza {
-    color: #39B24A;
-}
-
-.contenedor-footer .logo-header .y {
-    color: #fff;
-}
-
-.contenedor-footer .logo-header .front {
-    color: red;
-}
-
 .contenedor-footer .nav-menu ul {
     display: block;
     list-style: none;
@@ -173,4 +167,24 @@
 
 .contenedor-footer .nav-menu ul li {
     margin-bottom: 1rem;
+}
+
+@media all and (max-width: 800px) {
+    .contenedor-header .nav-menu {
+        display: none;
+    }
+
+    .contenedor-main {
+        padding: 1rem;
+    }
+    
+    .contenedor-main .div1-main,
+    .contenedor-main .podioPizza {
+        margin: .3rem;
+    }
+
+    .contenedor-header .logo-header h1{
+        position: relative;
+        left: calc(112px/2);
+    }
 }

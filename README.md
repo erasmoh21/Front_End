@@ -9,6 +9,7 @@
   <li><a href='https://erasmoh24.github.io/Front_End/CvPropio' style='color:red;'>Mi portafolio</a></li>
   <li><a href='https://erasmoh24.github.io/Front_End/Heroes' style='color:black;'>Heroes</a></li>
   <li><a href='https://erasmoh24.github.io/Front_End/tiendaPizza' style='color:purple;'>Tienda de Pizza</a></li>
+  <li><a href='https://erasmoh24.github.io/Front_End/tiendaGaming' style='color:silver'></a></li>
 </ol>
 
 
