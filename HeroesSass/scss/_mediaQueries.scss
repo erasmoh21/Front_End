@@ -1,0 +1,14 @@
+
+@media all and (max-width: 600px) {
+    header div {
+        background-color: #D1891C;
+    }
+
+    .contentHeroes {
+        display: none;
+    }
+
+    .contentHeroes2  {
+        @extend %contenedorHeaderPrincipal
+    } 
+}

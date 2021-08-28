@@ -1,0 +1,16 @@
+header div {
+    background: $colorHeader1;
+    padding: .5rem 0;
+
+    p {
+        margin-left: 2rem;
+    }
+}
+
+.contentHeroes {
+    @extend %contenedorHeaderPrincipal
+}
+
+.contentHeroes2 {
+    display: none;
+}
