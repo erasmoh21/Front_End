@@ -1,0 +1,461 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+.contenedorHeader {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: #222222;
+  color: #FFFFFF;
+  padding: .5rem;
+}
+
+.contenedorHeader .ofertas {
+  margin-left: 5rem;
+  color: #F3F3F3;
+}
+
+.contenedorHeader .formulario {
+  margin-right: 4rem;
+}
+
+.contenedorHeader .formulario form select {
+  outline: none;
+  border: none;
+  background-color: #222222;
+  color: #FFFFFF;
+}
+
+.contenedorHeaderPrincipal {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 2.8rem 0;
+  background-color: #F0A83E;
+}
+
+.contenedorHeaderPrincipal .logo {
+  margin-left: 5rem;
+}
+
+.contenedorHeaderPrincipal .logo h1 .front {
+  color: #3C2313;
+}
+
+.contenedorHeaderPrincipal .logo h1 .catdog {
+  color: #FFFFFFFF;
+}
+
+.contenedorHeaderPrincipal .nav-menu {
+  margin-right: 4rem;
+}
+
+.contenedorHeaderPrincipal .nav-menu nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.contenedorHeaderPrincipal .nav-menu nav a {
+  text-decoration: none;
+  color: #FFFFFFFF;
+  margin-right: 1rem;
+  font-size: 1.3rem;
+  -webkit-transition: border-bottom 1s ease-in-out;
+  transition: border-bottom 1s ease-in-out;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.contenedorHeaderPrincipal .nav-menu nav a::before {
+  content: url("../../petShop/img/pawprint 1.svg");
+  margin-right: .5rem;
+}
+
+.contenedorHeaderPrincipal .nav-menu nav a:hover {
+  border-bottom: 2px solid #FFFFFFFF;
+}
+
+.contenedorMain .seccion1 {
+  background-image: url("../../petShop/img/bowl-and-pet-daities-on-green-background 1.png");
+  background-size: cover;
+  height: 550px;
+}
+
+.contenedorMain .seccion1 div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin-right: 5rem;
+  height: 100%;
+}
+
+.contenedorMain .seccion1 div h2 {
+  background-color: #FFFFFF;
+  font-size: 3rem;
+  font-weight: lighter;
+  padding: 1rem;
+  margin-bottom: 1rem;
+  border-radius: .5rem;
+}
+
+.contenedorMain .seccion1 div p {
+  font-size: 1.6rem;
+  margin-bottom: 1rem;
+}
+
+.contenedorMain .seccion1 div .comederos {
+  color: #FFFFFF;
+  background-color: #F0A83E;
+  padding: 1.5rem;
+  border-radius: .5rem;
+  cursor: pointer;
+}
+
+.contenedorMain .seccion1 div div {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.tituloProductosDestacados {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin-top: 3rem;
+}
+
+.tituloProductosDestacados img {
+  width: 9rem;
+  margin-bottom: 1rem;
+}
+
+.tituloProductosDestacados h2 {
+  color: #3C2313;
+  font-size: 3rem;
+  margin: 1rem;
+}
+
+.tituloProductosDestacados p {
+  color: #666666;
+  margin: 1rem 0 9rem 0;
+  font-size: 1.5rem;
+}
+
+.tituloProductosDestacados p span {
+  margin: 0rem 1rem;
+}
+
+.contenedorMain .productos {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.contenedorMain .productos div {
+  margin-right: 2rem;
+  -webkit-transition: all 1s ease-in-out;
+  transition: all 1s ease-in-out;
+}
+
+.contenedorMain .productos div figure figcaption {
+  text-align: center;
+  position: relative;
+  bottom: 4rem;
+}
+
+.contenedorMain .productos div figure figcaption h3 {
+  color: #3C2313;
+  margin-bottom: .5rem;
+  font-size: 1.5rem;
+}
+
+.contenedorMain .productos div figure figcaption p {
+  color: #F0A83E;
+  font-size: 1.5rem;
+}
+
+.contenedorMain .productos div:hover {
+  -webkit-transform: scaleY(90deg);
+          transform: scaleY(90deg);
+  -webkit-box-shadow: 0px 1px 5px 2px rgba(0, 0, 0, 0.2);
+          box-shadow: 0px 1px 5px 2px rgba(0, 0, 0, 0.2);
+}
+
+.contenedorMain .formulario {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-top: 7rem;
+}
+
+.contenedorMain .formulario form fieldset {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  border: none;
+}
+
+.contenedorMain .formulario form fieldset legend {
+  text-align: center;
+  font-size: 2.5rem;
+  color: #3C2313;
+  margin-bottom: 2rem;
+}
+
+.contenedorMain .formulario form fieldset input {
+  width: 40rem;
+  height: 3rem;
+  margin-bottom: 1rem;
+  padding: 2rem;
+  outline: none;
+  border: none;
+  border-radius: 1.5rem;
+  background-color: #3C2313;
+  color: #FFFFFF;
+}
+
+.contenedorMain .formulario form fieldset input::-webkit-input-placeholder {
+  color: #FFFFFF;
+}
+
+.contenedorMain .formulario form fieldset input:-ms-input-placeholder {
+  color: #FFFFFF;
+}
+
+.contenedorMain .formulario form fieldset input::-ms-input-placeholder {
+  color: #FFFFFF;
+}
+
+.contenedorMain .formulario form fieldset input::placeholder {
+  color: #FFFFFF;
+}
+
+.contenedorMain .formulario form fieldset input:nth-child(4) {
+  margin-bottom: 3rem;
+}
+
+.contenedorMain .formulario form div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  gap: 2rem;
+  outline: none;
+}
+
+.contenedorMain .formulario form div input[type="reset"] {
+  border: none;
+  cursor: pointer;
+  padding: 1rem 2rem;
+  color: #FFFFFF;
+  background-color: #8A8787;
+  border-radius: 1.8rem;
+}
+
+.contenedorMain .formulario form div input[type="submit"] {
+  border: none;
+  cursor: pointer;
+  padding: 1rem 2rem;
+  color: #FFFFFF;
+  background-color: #F0A83E;
+  border-radius: 1.8rem;
+}
+
+.contenedorFooter1 {
+  margin-top: 15rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: #F0A83E;
+  color: #FFFFFF;
+  padding: 2rem 0;
+}
+
+.contenedorFooter1 div h2 {
+  font-size: 2rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.contenedorFooter1 div h2::before {
+  content: url("../../petShop/img/Group.svg");
+  margin: 0rem 1rem 0rem 4rem;
+}
+
+.contenedorFooter1 .formularioFooterInicial {
+  margin-right: 4rem;
+}
+
+.contenedorFooter1 .formularioFooterInicial form input[type="email"] {
+  width: 30rem;
+  height: 4rem;
+  padding: 1rem;
+  outline: none;
+  border: none;
+  border-radius: 1.5rem;
+}
+
+.contenedorFooter1 .formularioFooterInicial form input[type="submit"] {
+  outline: none;
+  border: none;
+  border-radius: 1.5rem;
+  cursor: pointer;
+  padding: 1rem 2rem;
+  margin-left: 1rem;
+  background-color: #3C2313;
+  color: #FFFFFF;
+}
+
+.contenedorFooter2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: #3C2313;
+  color: #FFFFFF;
+}
+
+.contenedorFooter2 .datosFooterPrincipal .localidad::before {
+  content: url("../../petShop/img/icono-localidad.svg");
+}
+
+.contenedorFooter2 .datosFooterPrincipal .localidad {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 1.5rem 0 1.5rem 5rem;
+}
+
+.contenedorFooter2 .datosFooterPrincipal .localidad div {
+  margin-left: 1rem;
+}
+
+.contenedorFooter2 .datosFooterPrincipal .telefono::before {
+  content: url("../../petShop/img/Icono-telefono.svg");
+}
+
+.contenedorFooter2 .datosFooterPrincipal .telefono {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 1.5rem 0 1.5rem 5rem;
+}
+
+.contenedorFooter2 .datosFooterPrincipal .telefono div {
+  margin-left: 1rem;
+}
+
+.contenedorFooter2 .datosFooterPrincipal .email::before {
+  content: url("../../petShop/img/Icono-correo.svg");
+}
+
+.contenedorFooter2 .datosFooterPrincipal .email {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 1.5rem 0 1.5rem 5rem;
+}
+
+.contenedorFooter2 .datosFooterPrincipal .email div {
+  margin-left: 1rem;
+}
+
+.contenedorFooter2 .logoFooterPrincipal {
+  margin-right: 8rem;
+}
+
+.contenedorFooter2 .logoFooterPrincipal h2 {
+  font-size: 2rem;
+}
+
+.contenedorFooter2 .logoFooterPrincipal h2 .cat {
+  color: #F0A83E;
+}
+
+.derechosReservadosFooter {
+  text-align: center;
+  background-color: #222222;
+  color: #FFFFFF;
+  padding: .5rem 0;
+}
+/*# sourceMappingURL=stylce.css.map */

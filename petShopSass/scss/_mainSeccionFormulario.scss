@@ -1,0 +1,64 @@
+.contenedorMain .formulario {
+    display: flex;
+    justify-content: center;
+    margin-top: 7rem;
+
+    form fieldset {
+        display: flex;
+        flex-direction: column;
+        border: none;
+
+        legend {
+            text-align: center;
+            font-size: 2.5rem;
+            color: #3C2313;
+            margin-bottom: 2rem;
+        }
+
+        input {
+            width: 40rem;
+            height: 3rem;
+            margin-bottom: 1rem;
+            padding: 2rem;
+            outline: none;
+            border: none;
+            border-radius: 1.5rem;
+            background-color: #3C2313;
+            color: #FFFFFF;
+            
+            &::placeholder {
+                color: #FFFFFF;
+            }
+
+            &:nth-child(4) {
+                margin-bottom: 3rem;
+            }
+        }
+    }
+
+    form div{
+        display: flex;
+        justify-content: center;
+        gap: 2rem;
+        outline: none;
+        
+        input[type="reset"] {
+            border: none;
+            cursor: pointer;
+            padding: 1rem 2rem;
+            color: #FFFFFF;
+            background-color: #8A8787;
+            border-radius: 1.8rem;
+        }
+
+        input[type="submit"] {
+            border: none;
+            cursor: pointer;
+            padding: 1rem 2rem;
+            color: #FFFFFF;
+            background-color: #F0A83E;
+            border-radius: 1.8rem;
+        }
+    }
+    
+}

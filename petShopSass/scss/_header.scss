@@ -1,0 +1,25 @@
+.contenedorHeader {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #222222;
+    color: #FFFFFF;
+    padding: .5rem;
+
+    .ofertas {
+        margin-left: 5rem;
+        color: #F3F3F3;
+    }
+
+    .formulario {
+        margin-right: 4rem;
+
+        form select {
+            outline: none;
+            border: none;
+            background-color: #222222;
+            color: #FFFFFF;
+        }
+    } 
+}
+

@@ -1,0 +1,46 @@
+.contenedorFooter1 {
+    margin-top: 15rem ;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+    background-color: #F0A83E;
+    color: #FFFFFF;
+    padding: 2rem 0;
+
+    div h2 {
+        font-size: 2rem;
+        display: flex;
+    }
+
+    div h2::before {
+        content: url('../../petShop/img/Group.svg');
+        margin: 0rem 1rem 0rem 4rem;  
+    }
+
+    .formularioFooterInicial {
+        margin-right: 4rem;
+
+        form {
+            input[type="email"] {
+                width: 30rem;
+                height: 4rem;
+                padding: 1rem;
+                outline: none;
+                border: none;
+                border-radius: 1.5rem;
+            }
+
+            input[type="submit"] {
+                outline: none;
+                border: none;
+                border-radius: 1.5rem;
+                cursor: pointer;
+                padding: 1rem 2rem;
+                margin-left: 1rem;
+                background-color: #3C2313;
+                color: #FFFFFF;
+            }
+        }
+    }
+}
