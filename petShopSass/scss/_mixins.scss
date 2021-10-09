@@ -1,0 +1,8 @@
+@mixin estiloBotonesFormulario($colorFondo) {
+    border: none;
+    cursor: pointer;
+    padding: 1rem 2rem;
+    color: #FFFFFF;
+    background-color: $colorFondo;
+    border-radius: 1.8rem;
+}

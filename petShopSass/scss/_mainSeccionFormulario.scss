@@ -1,3 +1,5 @@
+@import "mixins";
+
 .contenedorMain .formulario {
     display: flex;
     justify-content: center;
@@ -36,28 +38,17 @@
         }
     }
 
-    form div{
+    form div {
         display: flex;
         justify-content: center;
         gap: 2rem;
-        outline: none;
         
         input[type="reset"] {
-            border: none;
-            cursor: pointer;
-            padding: 1rem 2rem;
-            color: #FFFFFF;
-            background-color: #8A8787;
-            border-radius: 1.8rem;
+            @include estiloBotonesFormulario(#8A8787);  
         }
 
         input[type="submit"] {
-            border: none;
-            cursor: pointer;
-            padding: 1rem 2rem;
-            color: #FFFFFF;
-            background-color: #F0A83E;
-            border-radius: 1.8rem;
+            @include estiloBotonesFormulario(#F0A83E);
         }
     }
     

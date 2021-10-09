@@ -1,0 +1,42 @@
+.contenedorHeader {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #222222;
+    padding: 1.5rem 0;
+
+    .logo {
+        display: flex;
+        align-items: center;
+        margin-left: 2rem;
+
+        h1 {
+            margin-left: 1rem;
+            color: #FFFFFF;
+            span:nth-child(1) {
+                color: #39B24A;
+            }
+
+            span:nth-child(2) {
+                color: #FC200C;
+            }
+        }
+    }
+
+    .nav-header {
+        nav {
+            margin-right: 2rem;
+            a {
+                color: #FFFFFF;
+                text-decoration: none;
+                font-size: 1.6rem;
+                font-weight: bolder;
+                margin-left: 1.5rem;
+            }
+        }
+    }
+
+    .bars-menu {
+        display: none;
+    }
+}

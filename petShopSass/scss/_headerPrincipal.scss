@@ -4,6 +4,7 @@
     align-items: center;
     padding: 2.8rem 0;
     background-color: #F0A83E;
+    box-shadow: 0px 1px 3px 0px rgba(0, 0, 0, .8);
 
     .logo {
         margin-left: 5rem;
@@ -30,7 +31,7 @@
                 color: #FFFFFFFF;
                 margin-right: 1rem;
                 font-size: 1.3rem;
-                transition: border-bottom 1s ease-in-out;
+                transition: border-bottom 1ms ease-in-out;
                 display: flex;
                 align-items: center;
                    
@@ -44,7 +45,10 @@
                 }
                 
             }
-        }
-        
+        }   
+    }
+
+    .bars-menu {
+        display: none;
     }
 }

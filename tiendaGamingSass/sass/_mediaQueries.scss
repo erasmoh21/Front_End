@@ -1,0 +1,53 @@
+@media all and (max-width:604px) {
+    .contenedorHeader {
+        .nav-menu {
+            display: none;
+        }
+
+        .bars-menu {
+            display: flex;
+            margin-right: 1rem;
+            cursor: pointer;
+        }
+    }
+
+    .contenedorMain {
+        .seccion2 {
+            .contenedorJuegos {
+
+                div {
+                    margin-bottom: 1rem;
+                }
+            }
+        }
+
+        .seccion3 {
+            .contenedor-productosEstrellas div {
+                gap: 2rem;
+            }
+        }
+    }
+
+    .contenedor-footer {
+        flex-direction: column;
+        padding: 5rem;
+        gap: 3rem;
+
+        .logo {
+            margin-left: 0;
+        }
+
+        .redesSociales {
+            justify-self: center;
+            align-self: center;
+            margin-right: 0;
+        }
+
+        .footerUltimo {
+            padding: 2rem 0;
+        }
+
+    }
+
+    
+}

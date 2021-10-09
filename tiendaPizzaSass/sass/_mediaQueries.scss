@@ -1,0 +1,23 @@
+@media all and (max-width:604px) {
+    .contenedorHeader {
+
+        .nav-header {
+            display: none;
+        }
+
+        .bars-menu {
+            display: flex;
+            margin-right: 2rem;
+            cursor: pointer;
+        }
+    }
+
+    .contenedorMain {
+        
+        padding: 2rem;
+    
+        div {
+            margin-bottom: 2rem;
+        }
+    }
+}

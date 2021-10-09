@@ -1,0 +1,61 @@
+@media all and (max-width:640px) {
+    .contenedorHeaderPrincipal {
+        .nav-menu {
+            display: none;
+        }
+
+        .bars-menu {
+            display: flex;
+            margin-right: 4rem; 
+            cursor: pointer;
+        }
+    }
+
+    .contenedorMain {
+        .seccion1 div {
+            margin-right: 1rem;
+
+            div {
+                align-items: flex-end;
+            }
+        } 
+
+        .productos div {
+            margin-bottom: 1.5rem;
+        }
+    }   
+
+    .contenedorFooter1 {
+        flex-direction: column;
+        
+        &:nth-child(1) {
+            h2 {
+
+                position: relative;
+                right: 7rem;
+                &::before {
+                    margin-left: 0;
+                }
+            }
+        }
+
+        .formularioFooterInicial {
+            margin: 1rem 0 0 0; 
+            
+            form {
+                display: flex;
+            }             
+        }
+    }
+
+    .contenedorFooter2 {
+        flex-direction: column;
+        
+        .logoFooterPrincipal {
+            order: -1;
+            margin: 1rem 0 0 0 ;
+        }
+        
+    }
+
+}

@@ -16,5 +16,8 @@
 <ol>
 
   <li><a href="https://erasmoh24.github.io/Front_End/HeroesSass" style='color:gold'>Heroes</a></li>
+  <li><a href="https://erasmoh24.github.io/Front_End/petShopSass">Pet Shop</a></li>
+  <li><a href="https://erasmoh24.github.io/Front_End/tiendaGamingSass">Tienda Gaming</a></li>
+  <li><a href="https://erasmoh24.github.io/Front_End/tiendaPizzaSass">Tienda de Pizza</a><li>
 
 </ol>

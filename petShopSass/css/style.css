@@ -1,0 +1,216 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,300&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+.contenedorHeader {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: #222222;
+  padding: 1.5rem 0;
+}
+
+.contenedorHeader .logo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-left: 2rem;
+}
+
+.contenedorHeader .logo h1 {
+  margin-left: 1rem;
+  color: #FFFFFF;
+}
+
+.contenedorHeader .logo h1 span:nth-child(1) {
+  color: #39B24A;
+}
+
+.contenedorHeader .logo h1 span:nth-child(2) {
+  color: #FC200C;
+}
+
+.contenedorHeader .nav-header nav {
+  margin-right: 2rem;
+}
+
+.contenedorHeader .nav-header nav a {
+  color: #FFFFFF;
+  text-decoration: none;
+  font-size: 1.6rem;
+  font-weight: bolder;
+  margin-left: 1.5rem;
+}
+
+.contenedorHeader .bars-menu {
+  display: none;
+}
+
+main {
+  background-color: #E5E5E5;
+}
+
+.contenedorMain {
+  padding: 3rem 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.contenedorMain .bannerEnvios {
+  width: 490px;
+  height: 350px;
+  background-image: url(../../tiendaPizza/img/img-delivery.png);
+}
+
+.contenedorMain .bannerEnvios h2 {
+  margin: 2rem 0 0 2rem;
+  font-size: 2.4rem;
+  font-weight: bolder;
+  color: #FC200C;
+}
+
+.contenedorMain .bannerEnvios h2 span {
+  color: #FFFFFF;
+}
+
+.contenedorMain .podioPizzas {
+  width: 490px;
+  height: 350px;
+  background-color: #FFFFFF;
+  border-radius: .5rem;
+}
+
+.contenedorMain .podioPizzas .titulo {
+  color: #FC200C;
+  font-size: 2.4rem;
+  font-weight: bolder;
+  text-align: center;
+  margin-top: 3rem;
+}
+
+.contenedorMain .podioPizzas .contenidoPrincipal {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  margin-top: 6rem;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.contenedorMain .podioPizzas .contenidoPrincipal div:nth-child(1) h3 {
+  font-size: 2rem;
+  color: #222222;
+  margin-bottom: 3rem;
+}
+
+.contenedorMain .podioPizzas .contenidoPrincipal div:nth-child(1) ol {
+  font-size: 1.6rem;
+}
+
+.contenedorMain .podioPizzas .contenidoPrincipal div:nth-child(1) ol li {
+  color: #222222;
+  font-weight: bolder;
+  line-height: 2rem;
+  margin-bottom: .5rem;
+}
+
+.contenedorFooter {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: #222222;
+  padding-bottom: 1rem;
+}
+
+.contenedorFooter div:nth-child(1) {
+  margin-left: 2rem;
+}
+
+.contenedorFooter div:nth-child(1) ul {
+  list-style: none;
+  color: #FFFFFF;
+  font-weight: bolder;
+}
+
+.contenedorFooter div:nth-child(1) ul li {
+  margin-top: 1.5rem;
+  font-size: 1.6rem;
+  cursor: pointer;
+}
+
+.contenedorFooter div:nth-child(2) {
+  margin-right: 2rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.contenedorFooter div:nth-child(2) h2 {
+  margin-left: 1rem;
+  color: #FFFFFF;
+  font-size: 2rem;
+  font-weight: bolder;
+}
+
+.contenedorFooter div:nth-child(2) h2 span:nth-child(1) {
+  color: #39B24A;
+}
+
+.contenedorFooter div:nth-child(2) h2 span:nth-child(2) {
+  color: #FC200C;
+}
+
+@media all and (max-width: 604px) {
+  .contenedorHeader .nav-header {
+    display: none;
+  }
+  .contenedorHeader .bars-menu {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    margin-right: 2rem;
+    cursor: pointer;
+  }
+  .contenedorMain {
+    padding: 2rem;
+  }
+  .contenedorMain div {
+    margin-bottom: 2rem;
+  }
+}
+/*# sourceMappingURL=style.css.map */

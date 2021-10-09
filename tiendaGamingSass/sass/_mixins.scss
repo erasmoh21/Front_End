@@ -1,0 +1,11 @@
+@mixin estiloBannerProductosDestacados($urlImg) {
+    background-image: $urlImg;
+    border-radius: .5rem;
+    width: 361px;
+    height: 135px;
+    color: #FFFFFF;
+    font-size: 2.5rem;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}

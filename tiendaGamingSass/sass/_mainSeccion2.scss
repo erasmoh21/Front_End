@@ -15,7 +15,8 @@
 
 .contenedorMain .seccion2 .contenedorJuegos .juegos {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
+    flex-wrap: wrap;
 
     div {
         width: 265px;
